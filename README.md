@@ -1,7 +1,7 @@
 # Stop-Words-Hebrew
 The list was produced through Universal Dependencies of the The Israeli Association of Human Language Technologies (IAHLT) who analyzed sentences from the Hebrew wikipedia.
 
-From the UD we extracted the following POS:
+From the UD we extracted the following POS:\n
 DET - determiner (including article; examples: כל/כול, אף, שום)
 ADP - adposition (preposition/postposition; examples: למרות, ליד, לפני)
 PRON - pronoun (examples: הוא, זה, כך, מי)
