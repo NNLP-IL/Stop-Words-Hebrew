@@ -16,6 +16,6 @@ In the second step we went through the list manually and made corrections like r
 Feel free to add words using Pull Request.
 
 The attached files are:  
-prepare_stop_word_.ipynb .iypnb - Notebook that allows you to restore the list.  
+prepare_stop_word.ipynb .iypnb - Notebook that allows you to restore the list.  
 stopswords.txt - list of stop words  
 
