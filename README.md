@@ -23,9 +23,9 @@ This long list was compiled from three sources:
 
 The reason for this responds to the fact that the UD tokenization follows more radical rules than whitespace tokenization. Moreover, the UD tokenization is of high quality, as it is manually performed. For this reason, the original list did not include tokens like - שלו - איתך - ועם; in UD these tokens are morphologically segmented: the prepositions are separated from the pronouns and the conjunctions are separated from the prepositions, like in these examples: של+ו - אית+ך - ו+עם. In order to adapt the list to simpler whitespace tokenized corpora, we added words that we recognized as missing.
 
-Feel free to add or remove words using Pull Request.
-The attached files are:
-prepare_stop_word.ipynb .iypnb - A notebook that can be used to recreate the lists.
-stopswords_list_extend.txt  - long list of stop words
-stopswords_list_short.txt  - short list of stop words
-top_3000_most_freq_wiki.csv - 3000 frequent words from Wikipedia. 
+Feel free to add or remove words using Pull Request.  
+The attached files are:  
+prepare_stop_word.ipynb .iypnb - A notebook that can be used to recreate the lists.     
+stopswords_list_extend.txt  - long list of stop words  
+stopswords_list_short.txt  - short list of stop words  
+top_3000_most_freq_wiki.csv - 3000 frequent words from Wikipedia.   
