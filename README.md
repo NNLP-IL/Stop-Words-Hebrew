@@ -4,7 +4,7 @@
 There is some ambiguity in the definition of stop words. Stop words are words that are commonly used in any language. The words "the", "is" and "and" would easily qualify as stop words in English.
 
 In the absence of a definition, we created two lists, a long one and a more minimalist one. It gives the user more flexibility to choose the appropriate list based on their use case. During the process of creating the lists, we kept in mind two different use cases. For example, we recommend using the short list for taks like retrieving information. However, we recommended using the long one for topic analysis.
-The basic list was produced through Universal Dependencies of the The Israeli Association of Human Language Technologies (IAHLT) who analyzed sentences from the Hebrew wikipedia. 
+The basic list was produced through Universal Dependencies of the The Israeli Association of Human Language Technologies (IAHLT) who [analyzed sentences from the Hebrew wikipedia](https://github.com/UniversalDependencies/UD_Hebrew-IAHLTwiki). 
 
 From the UD we extracted the following POS:  
 DET - determiner (including article; examples: כל/כול, אף, שום)  
@@ -12,7 +12,7 @@ ADP - adposition (preposition/postposition; examples: למרות, ליד, לפנ
 PRON - pronoun (examples: הוא, זה, כך, מי)  
 CCONJ - coordinating conjunction (examples: אך, אבל, או, אלא, בין)  
 SCONJ - subordinating conjunction (examples: אשר, כי, אילו)  
-SYM - non-punctuatuon symbolSymbol (examples: %, $, =)  
+SYM - non-punctuatuon symbol (examples: %, $, =)  
 
 The short list is created by intersecting the UD list with the 1000 most frequent words from Wikipedia
 
